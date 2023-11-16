@@ -1,16 +1,9 @@
-# PS4b: Sokoban
+# Crate Master
 
 ## Contact
 Name: Quang Tran
 
-Section: 202
-
-Time to Complete: 8 hours
-
-![Sokoban](./screenshot.png)
-
-## Functionality of Program
-This program fully works.
+![Crate-Master](screenshot.PNG)
 
 ## Description
 'Sokoban (Japanese 倉庫番 for 'warehouseman')' is a game that challenges players to push a crate to it's designated location(s) in a warehouse. In this version of the project, the program is fully completed by creating the game user interface by generating the map based on a level file using characters. The player is now allowed to move and will win if they have all of the crates on top of a storage location.
@@ -23,10 +16,6 @@ This program fully works.
 
 ### Issues
 At the moment, there are no known issues with the project. It appears to be functioning as intended.
-
-## Extra Credit
-- The player changes direction while moving.
-- There is a sound and image response to winning.
 
 ## Source Files Used
 - 'block_06.png'

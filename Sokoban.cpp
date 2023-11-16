@@ -6,39 +6,39 @@ Sokoban::Sokoban() {
     correctCrates = 0;
     totalCrates = 0;
     crateDestinations = 0;
-    if (!wall.loadFromFile("block_06.png")) {
+    if (!wall.loadFromFile("assets/block_06.png")) {
         std::cout << "Failed to load wall texture." << std::endl;
     }
 
-    if (!floor.loadFromFile("ground_01.png")) {
+    if (!floor.loadFromFile("assets/ground_01.png")) {
         std::cout << "Failed to load floor texture." << std::endl;
     }
 
-    if (!crate.loadFromFile("crate_03.png")) {
+    if (!crate.loadFromFile("assets/crate_03.png")) {
         std::cout << "Failed to load crate texture." << std::endl;
     }
 
-    if (!squareFloor.loadFromFile("ground_04.png")) {
+    if (!squareFloor.loadFromFile("assets/ground_04.png")) {
         std::cout << "Failed to load square floor texture." << std::endl;
     }
 
-    if (!playerF.loadFromFile("player_05.png")) {
+    if (!playerF.loadFromFile("assets/player_05.png")) {
         std::cout << "Failed to load player forward texture." << std::endl;
     }
 
-    if (!playerL.loadFromFile("player_20.png")) {
+    if (!playerL.loadFromFile("assets/player_20.png")) {
         std::cout << "Failed to load player left texture." << std::endl;
     }
 
-    if (!playerR.loadFromFile("player_17.png")) {
+    if (!playerR.loadFromFile("assets/player_17.png")) {
         std::cout << "Failed to load player right texture." << std::endl;
     }
 
-    if (!playerU.loadFromFile("player_08.png")) {
+    if (!playerU.loadFromFile("assets/player_08.png")) {
         std::cout << "Failed to load player up texture." << std::endl;
     }
 
-    if (!victorySoundBuffer.loadFromFile("victory.wav")) {
+    if (!victorySoundBuffer.loadFromFile("assets/victory.wav")) {
         std::cout << "Failed to load victory sound." << std::endl;
     }
 

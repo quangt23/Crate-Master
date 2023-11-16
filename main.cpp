@@ -16,7 +16,7 @@ int main(int argc, char* argv[]) {
     inputFile >> game;
 
     sf::Texture victoryTexture;
-    if (!victoryTexture.loadFromFile("victory.png")) {
+    if (!victoryTexture.loadFromFile("assets/victory.png")) {
         std::cout << "Failed to load victory" << std::endl;
     }
 
