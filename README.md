@@ -1,4 +1,4 @@
-# Crate Master
+# Crate Master 📦🛠️
 Created by: Quang Tran
 
 ![Crate-Master](screenshot.PNG)
